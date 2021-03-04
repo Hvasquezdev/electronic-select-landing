@@ -1,0 +1,147 @@
+.is-title,
+.is-section-heading,
+.is-body-link,
+.is-footer-heading,
+.is-footer-link,
+.is-button {
+  font-family: 'Emblema One', cursive;
+}
+
+.is-navigation-link {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+}
+
+.is-body-text,
+.is-subtitle {
+  font-family: 'Catamaran', sans-serif;
+}
+
+.is-uppercase {
+  text-transform: uppercase;
+}
+
+.is-relative {
+  position: relative;
+}
+
+.is-absolute {
+  position: absolute;
+}
+
+/* Text size */
+.is-title {
+  font-size: 104.6px;
+  line-height: 87.3px;
+}
+
+.is-subtitle {
+  font-size: 37.2px;
+  line-height: 37.9px;
+  letter-spacing: 0.3px;
+}
+
+.is-section-heading {
+  font-size: 42px;
+}
+
+.is-body-link {
+  font-size: 31.2px;
+}
+
+.is-footer-heading,
+.is-footer-link {
+  font-size: 25px;
+}
+
+.is-body-text {
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0.2px;
+}
+
+.is-button {
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.is-navigation-link,
+.is-navigation-link a {
+  font-size: 18px;
+  line-height: 29px;
+  text-decoration: none;
+}
+
+/* Wrapper */
+
+.is-wrapper {
+  width: 100%;
+  max-width: 1320px;
+  padding: 0px 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 
+** Hero section
+*/
+.page-hero {
+  background-color: var(--pale-rose);
+}
+
+.page-hero header ul {
+  padding: 15px 20px;
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.page-hero header ul li:not(:last-of-type) {
+  margin-right: 35px;
+}
+
+.page-hero header ul li a {
+  color: var(--darker-grey);
+}
+
+.page-hero-content {
+  padding: 156px 20px 230px 20px;
+}
+
+.page-hero-content h1 {
+  color: var(--water-blue);
+}
+
+.page-hero-content h2 {
+  color: var(--darker-grey);
+}
+
+.page-hero-content img {
+  right: 0;
+  bottom: 0;
+  max-height: 85%;
+}
+
+.page-hero-content .social-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  position: absolute;
+  right: 30px;
+  top: 140px;
+}
+
+.page-hero-content .social-wrapper button {
+  width: 20px;
+  height: 20px;
+}
+
+.page-hero-content .social-wrapper button:not(:last-of-type) {
+  margin-bottom: 10px;
+}
