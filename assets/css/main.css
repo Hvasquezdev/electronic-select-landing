@@ -63,6 +63,10 @@
 .is-button {
   font-size: 20px;
   line-height: 29px;
+  box-shadow: none;
+  padding: 15px 25px;
+  border: none;
+  text-transform: uppercase;
 }
 
 .is-navigation-link,
@@ -144,4 +148,56 @@
 
 .page-hero-content .social-wrapper button:not(:last-of-type) {
   margin-bottom: 10px;
+}
+
+/* 
+** Appliances section
+*/
+.page-hero-appliances {
+  padding: 112px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-pink);
+}
+
+.page-hero-appliances header h3 {
+  color: var(--water-blue);
+  text-transform: uppercase;
+  padding-bottom: 72px;
+}
+
+.page-hero-appliances .apppliances-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 72px;
+}
+
+.page-hero-appliances .apppliances-gallery img:not(:last-of-type) {
+  margin-right: 40px;
+}
+
+.page-hero-appliances .appliances-description {
+  display: flex;
+}
+
+.page-hero-appliances .appliances-description img {
+  padding-right: 48px;
+}
+
+.page-hero-appliances .appliances-description .is-section-heading {
+  text-transform: uppercase;
+  color: var(--water-blue);
+}
+
+.page-hero-appliances .appliances-description .is-body-text {
+  color: var(--darker-grey);
+  padding: 15px 0;
+}
+
+.page-hero-appliances .appliances-description .is-button {
+  color: #fff;
+  background-color: var(--marine);
 }
