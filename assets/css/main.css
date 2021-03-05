@@ -113,7 +113,7 @@
 }
 
 .page-hero-content {
-  padding: 156px 20px 230px 20px;
+  padding: 230px 20px 300px 20px;
 }
 
 .page-hero-content h1 {
@@ -200,4 +200,56 @@
 .page-hero-appliances .appliances-description .is-button {
   color: #fff;
   background-color: var(--marine);
+}
+
+/* 
+** Description section
+*/
+.page-description {
+  /* padding: 112px 20px; */
+  /* position: relative; */
+  background-color: var(--pale-grey);
+}
+
+.page-description .is-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.page-description .page-description-content {
+  text-align: left;
+}
+
+.page-description .page-description-content h3 {
+  color: var(--water-blue);
+  text-transform: uppercase;
+  max-width: 290px;
+}
+
+.page-description .page-description-content p {
+  color: var(--darker-grey);
+  padding: 18px 0;
+}
+
+.page-description .page-description-content .is-button {
+  color: var(--marine);
+  background-color: var(--pale-rose);
+}
+
+.page-description img {
+  height: 600px;
+  max-width: 50%;
+  object-fit: cover;
+}
+
+.page-description img.is-right {
+  margin-left: 100px;
+}
+
+.page-description img.is-left {
+  margin-right: 100px;
+}
+
+.page-description .page-description-content.is-right h3 {
+  max-width: 390px;
 }
