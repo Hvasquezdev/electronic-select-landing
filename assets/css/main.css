@@ -214,6 +214,8 @@
 .page-description .is-wrapper {
   display: flex;
   align-items: center;
+  padding: 0;
+  max-width: 1280px;
 }
 
 .page-description .page-description-content {
@@ -252,4 +254,111 @@
 
 .page-description .page-description-content.is-right h3 {
   max-width: 390px;
+}
+
+/* 
+** Features section
+*/
+.page-features {
+  padding: 112px 0px;
+  background-color: var(--light-pink);
+}
+
+.page-features .is-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 225px;
+  padding-right: 225px;
+}
+
+.page-features .page-features-item {
+  color: var(--water-blue);
+  text-transform: uppercase;
+}
+
+/* 
+** Page footer
+*/
+
+.page-footer {
+  padding: 112px 0;
+  background-color: var(--pale-grey);
+}
+
+.page-footer .is-footer-heading,
+.page-footer .is-footer-link {
+  color: var(--water-blue);
+  text-transform: uppercase;
+}
+
+.page-footer .is-body-text {
+  color: var(--darker-grey);
+  padding-top: 10px;
+}
+
+.page-footer .is-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-footer .page-footer-form {
+  flex-grow: 0.7;
+}
+
+.page-footer .page-footer-form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+
+.page-footer .page-footer-form-wrapper input {
+  border: none;
+  height: 49px;
+  padding: 5px 30px;
+  width: 100%;
+  font-size: 18px;
+  color: var(--darker-grey);
+  font-family: 'Barlow', sans-serif;
+  outline: none;
+}
+
+.page-footer .page-footer-form-wrapper input::placeholder {
+  color: var(--darker-grey);
+}
+
+.page-footer .page-footer-form-wrapper .is-button {
+  padding: 10px 20px;
+  background-color: var(--pale-rose);
+  color: var(--marine);
+}
+
+.page-footer .page-footer-contact {
+  padding: 0 20px;
+}
+
+.page-footer .page-footer-contact .is-footer-heading {
+  color: var(--water-blue);
+  text-transform: uppercase;
+}
+
+.page-footer .page-footer-contact .is-body-text {
+  color: var(--darker-grey);
+  padding-top: 10px;
+}
+
+.page-footer .page-footer-links {
+  padding: 0 20px;
+  text-align: right;
+  /* margin-bottom: -34px; */
+}
+
+.page-footer .page-footer-links .is-footer-link {
+  text-decoration: none;
+}
+
+.page-footer .page-footer-links li:not(:last-of-type) {
+  margin-bottom: 5px;
 }
