@@ -93,6 +93,10 @@
   background-color: var(--pale-rose);
 }
 
+.page-hero .burger-menu {
+  display: none;
+}
+
 .page-hero header ul {
   padding: 15px 20px;
   width: 100%;
@@ -335,6 +339,12 @@
   color: var(--marine);
 }
 
+.page-footer .page-footer-content-wrapper {
+  display: flex;
+  flex-grow: 0.2;
+  justify-content: space-between;
+}
+
 .page-footer .page-footer-contact {
   padding: 0 20px;
 }
@@ -361,4 +371,235 @@
 
 .page-footer .page-footer-links li:not(:last-of-type) {
   margin-bottom: 5px;
+}
+
+.copyright-text {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: 'Catamaran', sans-serif;
+  color: #fff;
+  background-color: var(--marine);
+  text-align: center;
+}
+
+/* 
+** Media queries
+*/
+
+@media screen and (max-width: 600px) {
+  .is-title {
+    font-size: 50px;
+    line-height: 56px;
+  }
+  
+  .is-subtitle {
+    font-size: 24px;
+    line-height: 24.9px;
+  }
+  
+  .is-section-heading {
+    font-size: 32px;
+  }
+  
+  .is-body-text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  
+  .is-button {
+    font-size: 18px;
+    line-height: 26px;
+    box-shadow: none;
+  }
+
+  /* Wrapper */
+
+  .is-wrapper {
+    max-width: 460px;
+  }
+
+  /* 
+  ** Hero section
+  */
+  .page-hero header ul {
+    display: none;
+  }
+
+  .page-hero .burger-menu {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 0;
+    padding: 5px;
+    right: 20px;
+    top: 20px;
+  }
+
+  .page-hero .burger-menu img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .page-hero-content {
+    padding: 85px 20px 360px 20px;
+  }
+
+  .page-hero-content img {
+    right: 0;
+    bottom: 0;
+    max-height: 85%;
+    width: 90%;
+    max-width: 360px;
+  }
+
+  .page-hero-content .social-wrapper {
+    display: none;
+  }
+
+  /* 
+  ** Appliances section
+  */
+  .page-hero-appliances {
+    padding: 40px 20px 30px 20px;
+  }
+  
+  .page-hero-appliances header h3 {
+    padding-bottom: 40px;
+  }
+
+  .page-hero-appliances .apppliances-gallery {
+    margin-bottom: 50px;
+    justify-content: space-between;
+  }
+
+  .page-hero-appliances .apppliances-gallery img {
+    width: 47%;
+    max-width: 200px;
+  }
+
+  .page-hero-appliances .apppliances-gallery img:not(:last-of-type) {
+    margin-right: 0px;
+  }
+
+  .page-hero-appliances .apppliances-gallery img:first-of-type {
+    margin-right: 20px;
+  }
+
+  .page-hero-appliances .apppliances-gallery img:last-of-type {
+    display: none;
+  }
+
+  .page-hero-appliances .appliances-description {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .page-hero-appliances .appliances-description img {
+    padding: 0;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .page-hero-appliances .appliances-description .is-section-heading {
+    text-align: center;
+  }
+
+  .page-hero-appliances .appliances-description .is-button {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* 
+  ** Page description
+  */
+  
+  .page-description .is-wrapper {
+    flex-direction: column;
+  }
+
+  .page-description .is-wrapper .page-description-content {
+    padding: 20px;
+  }
+
+  .page-description .is-wrapper .page-description-content h3 {
+    text-align: center;
+    max-width: 100%;
+    padding: 24px 0;
+  }
+
+  .page-description .is-wrapper .page-description-content .is-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--marine);
+    color: #fff;
+  }
+
+  .page-description .is-wrapper img {
+    max-width: 100%;
+    margin: 32px 0 0 0;
+    height: 400px;
+    order: 2;
+  }
+
+  .page-features {
+    padding: 60px 20px 60px 20px;
+  }
+
+  .page-features .is-wrapper {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .page-features .page-features-item:not(:last-of-type) {
+    margin-bottom: 32px;
+  }
+
+  .page-footer {
+    padding: 60px 0;
+  }
+
+  .page-footer .is-wrapper {
+    flex-direction: column;
+  }
+
+  .page-footer .page-footer-form {
+    text-align: center;
+    width: 100%;
+  }
+
+  .page-footer .page-footer-form-wrapper {
+    flex-direction: column;
+    padding-bottom: 32px;
+  }
+
+  .page-footer .page-footer-form-wrapper input {
+    border: 1px solid var(--pale-rose);
+    margin-bottom: 15px;
+  }
+
+  .page-footer .page-footer-content-wrapper {
+    display: flex;
+    width: 100%;
+  }
+
+  .page-footer .page-footer-content-wrapper .page-footer-contact {
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  .page-footer .page-footer-content-wrapper .page-footer-links {
+    padding-right: 0;
+    padding-left: 10px;
+  }
+
+  .page-footer .page-footer-links li:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
 }
