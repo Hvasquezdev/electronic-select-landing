@@ -1,14 +1,10 @@
-.is-icon {
-  outline: none;
+.icon {
+  cursor: pointer;
   border: none;
   box-shadow: none;
 }
 
-.is-actionable {
-  cursor: pointer;
-}
-
-.is-facebook-f { 
+.facebook-f { 
   display: inline-block;
   width: 32px;
   height: 32px;
@@ -16,7 +12,7 @@
   background-size: 100%;
 }
 
-.is-instagram { 
+.instagram { 
   display: inline-block;
   width: 26px;
   height: 26px;
@@ -24,7 +20,7 @@
   background-size: 100%;
 }
 
-.is-twitter { 
+.twitter { 
   display: inline-block;
   width: 24px;
   height: 24px;
@@ -32,7 +28,7 @@
   background-size: 100%;
 }
 
-.is-snapchat { 
+.snapchat { 
   display: inline-block;
   width: 24px;
   height: 24px;
